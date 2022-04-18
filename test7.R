@@ -88,6 +88,7 @@ irdata$points3d(ir.versicolor$Petal.Length, ir.versicolor$Sepal.Length,
                 ir.versicolor$Sepal.Width, bg='yellow', pch=25)
 
 # ggplot2 package : 그래프 기능이 확장된 패키지(라이브러리)
+install.packages("ggplot2")
 library(ggplot2)
 head(mpg, 3)
 ?ggplot
